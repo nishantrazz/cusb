@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Other Quota & Category</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+<body>
+    <form action="">
+        <h2>Other Quota & Category</h2>
+
+       <div>
+        <label for="">Do you belong to the Below Poverty Line? :-  </label>       
+        <select name="bpl" id="bpl">
+            <option value="">select</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+       </div>
+
+       <div>
+        <label for="">Are you a Kashmiri Migrant? :-  </label>
+        <select name="migrant" id="migrant">
+            <option value="">select</option>
+            <option value="Yes">Yes</option>
+                <option value="No">No</option>
+        </select>
+       </div>
+   
+       <div>
+        <label for="">Ward of Defence Personnel / ExServicemen :</label>        
+            <select name = "defence" id="defence" required>
+                <option value = "">Select</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+       </div>
+
+       <div>
+        <label for="">Claim for NCC Quota :</label>
+            <select name = "ncc" id="ncc" required>
+                <option value = "">Select</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+       </div>
+
+       <div>
+        <label for="">Claim for Sports Quota :</label>
+            <select name = "sports" id="sports" required>
+                <option value = "">Select</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+       </div>
+
+       <div>
+        <label for="">Are you a ward of a University Employee? :</label>    
+            <select name="univesity_employee" id="univesity_employee"  required >
+                <option value="">Select</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+       </div>
+
+       
+
+       <input type="button" value="Submit" id="Submit" >
+       <input type="reset" value="Reset">
+       <button onclick="document.location='permanent_address.html'" >Next</button>
+       <button onclick="document.location='contact_detail.html'" >Back</button>
+       
+       
+    </form>
+
+    
+</body>
+</html>
+

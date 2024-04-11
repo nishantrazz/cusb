@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal detail</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+<body>
+    <form action="">
+        <h2>Personal Details</h2>
+
+        <div>
+            <label >Enter ABC id </label>
+            <input type="text" name="abc_id" id="abc_is " placeholder="ABC id">
+        </div>
+       <div>
+        <label for="Name">Enter Candidate's Name (As per class 10 or Equivalent Certificate):</label>
+        <input type="text" name="name" id="Name" placeholder="Full name" required/>
+       </div>
+
+       <!-- <div>
+        <label for="Email">Enter your email:</label>
+        <input type="email" name="email" id="Email" placeholder="Email" required/>
+       </div> -->
+
+       <div>
+        <label for="">Enter your Father Name:</label>
+        <input type="text" name="father_name" id="father_name" placeholder="Father Name" required/>
+       </div>
+
+       <div>
+        <label for="">Select Father Education :-  </label>
+        <select name="father_education" id="father_education" required>
+            <option value="">select</option>
+            <option value="Doctorate">Doctorate</option>
+            <option value="graduate">graduate</option>
+            <option value="illiterare">illiterare</option>
+            <option value="Matriculation">Matriculation</option>
+            <option value="Post graduate">Post graduate</option>
+            <option value="Other">Other</option>
+        </select>
+       </div>
+
+       <div>
+        <label for="">Select Father Occuption:-</label>
+        <select name="father_occuption" id="father_occuption" required>
+            <option value="">Select</option>
+            <option value="Agriculter">Agriculter</option>
+            <option value="Defence">Defence</option>
+            <option value="Business">Business</option>
+            <option value="Government Services">Government Services</option>
+            <option value="Doctor or medical staff">Doctor or medical staff</option>
+            <option value="Private jobs">Private jobs</option>
+            <option value="Household">Household</option>
+            <option value="Other">Other</option>
+            <!-- <option value=""></option> -->
+        </select>
+       </div>
+
+       <div>
+        <label>Enter Annual Income :</label>
+        <input type="text" name="a_income" id="a_income" placeholder="Enter Annual Income" required/>
+       </div>
+
+       <div>
+        <label for="">Enter your Mother Name:</label>
+        <input type="text" name="mother_name" id="mother_name" placeholder="Mother Name" required/>
+       </div>
+
+       <div>
+        <label for="">Select Mother Education :-  </label>
+        <select name="mother_education" id="mother_education" required>
+            <option value="">select</option>
+            <option value="Doctorate">Doctorate</option>
+            <option value="graduate">graduate</option>
+            <option value="illiterare">illiterare</option>
+            <option value="Matriculation">Matriculation</option>
+            <option value="Post graduate">Post graduate</option>
+            <option value="Other">Other</option>
+        </select>
+       </div>
+
+       <div>
+        <label for="">Select Mother Occuption:-</label>
+        <select name="mother_occuption" id="mother_occuption" required>
+            <option value="">Select</option>
+            <option value="Agriculter">Agriculter</option>
+            <option value="Defence">Defence</option>
+            <option value="Business">Business</option>
+            <option value="Government Services">Government Services</option>
+            <option value="Doctor or medical staff">Doctor or medical staff</option>
+            <option value="Private jobs">Private jobs</option>
+            <option value="Household">Household</option>
+            <option value="Other">Other</option>
+            <!-- <option value=""></option> -->
+        </select>
+       </div>
+
+
+       <div>
+        <label for="">Enter Candidate's Date of Birth :</label>
+        <input type="date" name="dob" id="dob" placeholder="Candidate's Date of Birth " required/>
+       </div>
+
+       <div>
+        <label for="">Choose your Gender :</label>
+            <select name = "nationality" placeholder="Nationality" required>
+                <option value = "">Select</option>
+                <option value = "Male">Male</option>
+                <option value = "Female">Female</option>
+                <option value = "Other">Other</option>
+            </select>
+       </div>
+
+       <div>
+        <label for="">Choose your Category :</label>
+            <select name = "nationality" placeholder="Nationality" required>
+                <option value = "">Select</option>
+                <option value = "General">General</option>
+                <option value = "Obc">Obc</option>
+                <option value = "SC/ST">SC/ST</option>
+            </select>
+       </div>
+
+       <div>
+        <label for="">Choose your Nationality :</label>
+            <select name = "nationality"  required>
+                <option value = "">Select</option>
+                <option value = "India">India</option>
+                <option value = "Other Country">Other Country</option>
+            </select>
+       </div>
+
+       <div>
+        <label for="">Enter your Identity Type:</label>
+        <select name="identity_type" id="identity_type"  required >
+                <option value="">Select</option>
+                <option value="addhar card">Addhar card</option>
+                <option value="Pan card">Pan card</option>
+                <option value="Voter id card">Voter id card</option>
+                <option value="Passport id">Passport id</option>
+
+        </select>
+       </div>
+
+       <div>
+        <label for="">Enter your Valid Identification Number  :</label>
+        <input type="text" name="valid_number" id="valid_number" placeholder="Valid Identification Number" required/>
+       </div>
+
+       <input type="submit" value="Submit" id="Submit" >
+       <input type="reset" value="Reset">
+       <button onclick="document.location='other_category.html'" >Next</button>
+       <button onclick="document.location='contact_detail.html'" >Back</button>
+       
+       
+    </form>
+
+    
+</body>
+</html>
